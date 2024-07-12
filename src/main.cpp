@@ -65,8 +65,8 @@ int main()
   // Send the sine wave data to gnuplot
   gp << "set terminal pngcairo enhanced font 'Verdana,10'\n";
   gp << "set output 'sine_wave.png'\n";
-  gp << "set title 'Sine Wave'\n";
-  gp << "set xlabel 'X'\n";
+  gp << "set title 'Actual vs Predicted'\n";
+  gp << "set xlabel 'ALM'\n";
   gp << "set ylabel 'Sin(X)'\n";
   gp << "plot '-' with lines title 'sin(x)'\n";
   gp.send1d(sine_wave);
