@@ -1,0 +1,7 @@
+#ignores the build directory where objects / binaries are built
+
+build/
+
+#ignores os generated files
+.DS_Store
+Thumbs.db

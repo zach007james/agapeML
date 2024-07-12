@@ -1,0 +1,3 @@
+/home/zach007james/agapeML/external/CMakeFiles/agapeML.dir
+/home/zach007james/agapeML/external/CMakeFiles/edit_cache.dir
+/home/zach007james/agapeML/external/CMakeFiles/rebuild_cache.dir
